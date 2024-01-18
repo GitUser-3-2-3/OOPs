@@ -45,7 +45,7 @@ class Student {
     }
 
     Student() {
-        this("Parth", 32.3f);
+        this(53, "Parth", 32.3f);
     }
 
     Student(String name, float marks) {
