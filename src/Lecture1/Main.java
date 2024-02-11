@@ -19,7 +19,7 @@ public class Main {
         // juhi.changeName("Juhi");
         juhi.greeting();
         himanshu.greeting();
-
+        System.out.println(parth.name);
         // System.out.println(parth.rno);
         // System.out.println(parth.name);
         // System.out.println(parth.marks);
@@ -45,7 +45,7 @@ class Student {
     }
 
     Student() {
-        this(53, "Parth", 32.3f);
+        this(53, "default value", 32.3f);
     }
 
     Student(String name, float marks) {
