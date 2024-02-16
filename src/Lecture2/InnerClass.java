@@ -10,6 +10,11 @@ public class InnerClass {
         Test(String name) {
             this.name = name;
         }
+
+        @Override
+        public String toString() {
+            return name;
+        }
     }
 
     public static void main(String[] args) {
@@ -18,5 +23,6 @@ public class InnerClass {
 
         System.out.println(test1.name);
         System.out.println(test2.name);
+        System.out.println(test1);
     }
 }
