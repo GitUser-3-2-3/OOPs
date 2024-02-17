@@ -1,4 +1,4 @@
-package Lecture3;
+package Lecture3.Inheritance;
 
 /**
  * BoxWeight
@@ -24,6 +24,11 @@ public class BoxWeight extends Box {
 
         // calls the parent class for weight variable
         System.out.println(super.weight);
+        this.weight = weight;
+    }
+
+    BoxWeight(double side, double weight) {
+        super(side);
         this.weight = weight;
     }
 
