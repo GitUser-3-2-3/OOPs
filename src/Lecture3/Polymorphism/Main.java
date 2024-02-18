@@ -6,10 +6,14 @@ package Lecture3.Polymorphism;
 public class Main {
     @SuppressWarnings("unused")
     public static void main(String[] args) {
+        System.out.println();
+        
         Shapes shape = new Shapes();
-        Circle circle = new Circle();
+        Shapes circle = new Circle();
         Square square = new Square();
         
-        shape.area();
+        circle.area();
+
+        System.out.println();
     }
 }
