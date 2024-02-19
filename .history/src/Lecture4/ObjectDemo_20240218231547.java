@@ -32,11 +32,6 @@ public class ObjectDemo {
         return super.toString();
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-    }
-
     @SuppressWarnings("unused")
     public static void main(String[] args) {
         System.out.println();
