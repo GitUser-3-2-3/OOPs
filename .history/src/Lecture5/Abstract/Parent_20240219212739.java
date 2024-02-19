@@ -10,10 +10,6 @@ public abstract class Parent {
         this.age = age;
     }
 
-    public void normal() {
-        System.out.println("Normal Method");
-    }
-
     abstract void career();
     abstract void partner();
 }

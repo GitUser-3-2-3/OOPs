@@ -11,7 +11,7 @@ public abstract class Parent {
     }
 
     public void normal() {
-        System.out.println("Normal Method");
+        System.out.println("");
     }
 
     abstract void career();
