@@ -18,7 +18,7 @@ public class Main {
         BoxPrice box = new BoxPrice(12.4, 3.44, 21.33);
         System.out.println(box.weight);
         BoxWeight boxWeight = new BoxWeight(11.4, 13, 19.6, 12.2);
-        System.out.println(boxWeight.l);
+        System.out.println();
 
         System.out.println();
     }
