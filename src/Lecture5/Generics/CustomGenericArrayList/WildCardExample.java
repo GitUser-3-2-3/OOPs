@@ -51,8 +51,8 @@ public class WildCardExample<T extends Number> {
         data = temp;
     }
 
+    @SuppressWarnings("unchecked")
     public T remove() {
-        @SuppressWarnings("unchecked")
         T removed = (T) (data[--size]);
         return removed;
     }
