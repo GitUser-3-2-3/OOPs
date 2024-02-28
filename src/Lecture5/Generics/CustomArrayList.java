@@ -36,8 +36,7 @@ public class CustomArrayList {
     }
 
     public int remove() {
-        int removed = data[--size];
-        return removed;
+        return data[--size];
     }
 
     public int getIndex(int index) {
