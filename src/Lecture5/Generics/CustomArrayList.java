@@ -7,10 +7,10 @@ import java.util.Arrays;
  */
 public class CustomArrayList {
     private int[] data;
-    private static int DEFAULT_SIZE = 10;
     private int size;
 
     public CustomArrayList() {
+        int DEFAULT_SIZE = 10;
         this.data = new int[DEFAULT_SIZE];
     }
 
